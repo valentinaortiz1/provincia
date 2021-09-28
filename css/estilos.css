@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
 h1 {
     text-align: center;
     color:rgb(255, 255, 255);
@@ -7,19 +7,24 @@ h1 {
 
 }
 h2{
-    color: rgb(29, 197, 93);
+    color: rgb(203, 173, 236);
     text-align: center;
     font-size: 2.1em;
+    background: linear-gradient(90deg, rgba(140,57,205,1) 0%, rgba(143,10,207,1) 13%);
 }
 h3{
-    color: rgb(35, 201, 98);
+    color: rgb(227, 208, 247);
     font-size: 2.1em;
     text-align: center;
+    background: linear-gradient(90deg, rgba(140,57,205,1) 0%, rgba(143,10,207,1) 13%);
     
 }
 table{
     color: rgb(255, 255, 255);
    text-align: center; 
+   background: linear-gradient(90deg, rgba(211,156,221,1) 0%, rgba(228,185,216,1) 13%);
+   font-size: 1.9em;
+   margin: 0 auto;
    
 }
 th{
@@ -29,15 +34,28 @@ th{
 
 
 body{
-    font-family: 'Mukta', sans-serif;
+    font-family: 'Teko', sans-serif;
     font-size: 1.3em;
-    background-image: url('../img/neu.webp');
+    background-image: url('../img/villa.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
+    background-color: rgb(23, 207, 240);
+
+    
+
 }
 p{
     color:rgb(7, 7, 7);
     font-size: 1.2em;
     background: linear-gradient(90deg, rgba(255,255,255,1) 8%, rgba(255,255,255,1) 13%);
+}
+li{
+    color: rgb(5, 5, 5);
+    font-size: 1.3em;
+    font-weight: 900;
+}
+footer{
+    text-align: center;
 }
 
